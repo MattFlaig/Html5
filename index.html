@@ -17,4 +17,224 @@
     <!-- include extern jQuery file but fall back to local file if extern one fails to load -->
     <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script type="text/javascript">window.jQuery || document.write('script type="text\/javascript" src="js\/1.7.2.jquery.min"><\/script>')</script>
+
+    <script src="lightbox/js/lightbox.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Html5 Practice</h1>
+      <p>A responsive website</p>
+      <nav>
+        <ul>
+          <li><a href="javascript:void(0)">Home</a></li>
+          <li><a href="javascript:void(0)">Portfolio</a></li>
+          <li><a href="javascript:void(0)">About</a></li>
+          <li><a href="javascript:void(0)">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+      <h2 class="hidden">Lorem Ipsum</h2>
+      <article id="slider_content1">
+        <h3>Lorem ipsum dolor</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <a class="button" href="some_page.html">Mehr erfahren</a>
+      </article>
+      <article id="slider_content2">
+        <h3>Sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <a class="button" href="some_page.html">Mehr erfahren</a>
+      </article>
+      <article id="slider_content3">
+        <h3>Adipiscing elit</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+        <a class="button" href="some_page.html">Mehr erfahren</a>
+      </article>
+      <div id="slides">
+        <img src="img/slide1.jpg" alt="Alternative slide text">
+        <img src="img/slide2.jpg" alt="Alternative slide text">
+        <img src="img/slide3.jpg" alt="Alternative slide text">
+      </div>
+    </section>
+
+    <section id="spacer">
+      <h2 class="hidden">Donec quam felis</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      <div class="search">
+        <form action="#">
+          <input type="text" name="sitesearch" value="Enter a search term..."/>
+          <input type="submit" name="start_search" class="button" value="Search"/>
+        </form>
+      </div>
+    </section>
+
+    <!-- http://www.iconarchive.com/show/icons8-metro-style-icons-by-visualpharm.2.html-->
+    <section id="boxcontent"> 
+      <h2 class="hidden">Adispiscing</h2>
+      <article>
+        <img src="img/some_icon.png" alt="alt text"/>
+        <h3>Lorem ipsum</h3>
+        <p>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+      </article>
+      <article>
+        <img src="img/some_icon.png" alt="alt text"/>
+        <h3>Consectetuer</h3>
+        <p>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+      </article>
+      <article>
+        <img src="img/some_icon.png" alt="alt text"/>
+        <h3>Dolor sit amet</h3>
+        <p>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+      </article>
+      <br class="clear"/>
+    </section>
+    
+    <section id="four_columns">
+      <h2>
+        Lorem ipsum
+      </h2>
+      <article class="img-item">
+        <h3 class="hidden">Dolor sit amet</h3>
+        <figure>
+          <a href="img/example-slide-1.jpg" rel="lightbox" title="some title">
+            <span class="thumb-screen"></span>
+            <img src="img/example-slide-1sml.jpg" alt="Some alt text"/>
+          </a>
+          <figcaption>
+            <strong>
+              Photo by: Some Name
+            </strong>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          </figcaption>
+        </figure>
+      </article>
+      <article class="img-item">
+        <h3 class="hidden">Dolor sit amet</h3>
+        <figure>
+          <a href="img/example-slide-2.jpg" rel="lightbox" title="some title">
+            <span class="thumb-screen"></span>
+            <img src="img/example-slide-2sml.jpg" alt="Some alt text"/>
+          </a>
+          <figcaption>
+            <strong>
+              Photo by: Some Name
+            </strong>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          </figcaption>
+        </figure>
+      </article>
+      <article class="img-item">
+        <h3 class="hidden">Dolor sit amet</h3>
+        <figure>
+          <a href="img/example-slide-3.jpg" rel="lightbox" title="some title">
+            <span class="thumb-screen"></span>
+            <img src="img/example-slide-3sml.jpg" alt="Some alt text"/>
+          </a>
+          <figcaption>
+            <strong>
+              Photo by: Some Name
+            </strong>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          </figcaption>
+        </figure>
+      </article>
+      <article class="img-item">
+        <h3 class="hidden">Dolor sit amet</h3>
+        <figure>
+          <a href="img/example-slide-4.jpg" rel="lightbox" title="some title">
+            <span class="thumb-screen"></span>
+            <img src="img/example-slide-4sml.jpg" alt="Some alt text"/>
+          </a>
+          <figcaption>
+            <strong>
+              Photo by: Some Name
+            </strong>
+            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+          </figcaption>
+        </figure>
+      </article>
+      <br class="clear"/>
+    </section>
+
+    <section id="text_columns">
+      <h2 class="hidden">Blindtext</h2>
+      <article class="column1">
+        <h3>
+          Dolor sit amet
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+      </article>
+      <section class="column2">
+        <h3 class="hidden">Lorem Ipsum</h3>
+        <article class="row">
+          <h4 class="hidden">Dolor sit</h4>
+          <img src="img/icon.png" width="80" class="rocket" alt="Some alt text"/>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+        </article>
+        <article class="row">
+          <h4 class="hidden">Dolor magnis</h4>
+          <img src="img/icon.png" width="80" class="clock" alt="Some alt text"/>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+        </article>
+      </section>
+    </section>
+
+    <footer>
+      <h2 class="hidden">Our footer</h2>
+      <section id="copyright">
+        <h3 class="hidden">Copyright notice</h3>
+        <div class="wrapper">
+          <div class="social">
+            <a href="javascript:void(0)"><img src="img/Social-Networks-Google-plus-icon.png" alt="google plus" width="25"/></a>
+            <a href="javascript:void(0)"><img src="img/Logos-Tumblr-icon.png" alt="tumblr" width="25"/></a>
+            <a href="javascript:void(0)"><img src="img/Logos-Youtube-icon.png" alt="youtube" width="25"/></a>
+            <a href="javascript:void(0)"><img src="img/Social-Networks-Bebo-icon.png" alt="bebo" width="25"/></a>
+            <a href="javascript:void(0)"><img src="img/Social-Networks-Xing-icon.png" alt="xing" width="25"/></a>
+          </div>
+          &copy; Copyright 2014 by Matt. All Rights Reserved.
+        </div>
+      </section>
+      <section class="wrapper">
+        <h3 class="hidden">Footer content</h3>
+        <article class="column">
+          <h4>Lorem ipsum</h4>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </article>
+        <article class="column midlist">
+          <h4>Consectetuer</h4>
+          <ul>
+            <li><a href="javascript:void(0)">dis parturient montes, nascetur ridiculus mus.</a></li>
+            <li><a href="javascript:void(0)">consectetuer adipiscing elit</a></li>
+            <li><a href="javascript:void(0)">pellentesque eu, pretium quis, sem</a></li>
+            <li><a href="javascript:void(0)">Aenean commodo ligula eget dolor</a></li>
+          </ul>
+        </article>
+        <article class="column rightlist">
+          <h4>Dolor sit amet</h4>
+          <ul>
+            <li><a href="javascript:void(0)"><img src="img/example-slide-1sml.jpg" width="80" alt="some alt text"/><span>dis parturient montes, nascetur ridiculus mus.</span></a></li>
+            <li><a href="javascript:void(0)"><img src="img/example-slide-2sml.jpg" width="80" alt="some alt text"/><span>consectetuer adipiscing elit</span></a></li>
+            <li><a href="javascript:void(0)"><img src="img/example-slide-3sml.jpg" width="80" alt="some alt text"/><span>pellentesque eu, pretium quis, sem</span></a></li>
+          </ul>
+        </article>
+      </section>
+    </footer>
+
+  </body>
+</html>
    
