@@ -143,3 +143,30 @@ nav ul li a:hover {
     padding: 10px 15px;
     border-radius: 5px;
 }
+
+/*SPACER*/
+#spacer {
+    width: auto;
+    height: 70px;
+    background-color: #e56038;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+#spacer p {
+    margin-top: 22px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+#spacer.search {
+    margin-top: 15px;
+    width: auto;
+    position: absolute;
+    right:50%;
+    margin-right: -480px;
+}
